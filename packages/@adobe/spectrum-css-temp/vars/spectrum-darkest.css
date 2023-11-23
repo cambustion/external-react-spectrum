@@ -108,6 +108,10 @@
   --spectrum-green-1200: rgb(137, 236, 188);
   --spectrum-green-1300: rgb(177, 244, 209);
   --spectrum-green-1400: rgb(214, 249, 228);
+
+  /* Custom token */
+  --spectrum-custom-100: rgb(0, 93, 57);
+
   --spectrum-seafoam-100: rgb(18, 43, 42);
   --spectrum-seafoam-200: rgb(19, 57, 55);
   --spectrum-seafoam-300: rgb(16, 73, 70);
