@@ -21,6 +21,8 @@ function TextField(props: SpectrumTextFieldProps, ref: Ref<TextFieldRef>) {
   props = useProviderProps(props);
   props = useFormProps(props);
 
+  props = {...props, label: `Custom-${props.label}`};
+
   let inputRef = useRef<HTMLInputElement>(null);
   let result = useTextField(props, inputRef);
 
