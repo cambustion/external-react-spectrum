@@ -16,3 +16,5 @@ dist
 public
 storybook-static
 junit.xml
+
+/.yarn
